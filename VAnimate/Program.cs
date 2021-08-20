@@ -1,8 +1,9 @@
 ﻿using System;
+using VAnimate.Data;
 
 namespace VAnimate
 {
-    class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {

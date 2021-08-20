@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace VAnimate
+namespace VAnimate.Data
 {
     public class Svg : ISvgElement
     {

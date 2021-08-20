@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace VAnimate
+namespace VAnimate.Data
 {
     public interface ISvgElement
     {
