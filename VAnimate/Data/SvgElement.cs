@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
-namespace VAnimate.Data
 
+namespace VAnimate.Data
 {
     public abstract class SvgElement
     {
