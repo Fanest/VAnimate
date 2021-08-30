@@ -10,5 +10,5 @@ This project is in it's infancy, my first goal is to implement the components of
 ## Contribute
 If you have any suggestions or want to point out something please don't hesitate to do so. I don't have a lot of expierience with projects like this and welcome any help. If you wish to contribute something please **[contact me first](mailto:mail@stefanschmauch.eu?subject=VAnimate%20Contribution&body=Hello%20fellow%20Programmer "Send me an Email")** I would hate to reject your hard work because it would change the architecture or because it wouldn't fit in this project. If you created something cool and want others to see there is the Examples folder.
 
-##Browser Support
+## Browser Support
 All implemented svg features are supported in at least Safari, Chrome and Firefox including their mobile counterparts. No support for deprecated features.
