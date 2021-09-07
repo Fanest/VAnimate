@@ -17,6 +17,7 @@ namespace VAnimate.Data
             if (!base.IsTree) throw new ArgumentException("Cannot form string due to overlapping branches or cycles in svg structure.");
             
             var ret = new StringBuilder("<svg xmlns=\"http://www.w3.org/2000/svg\"");
+            if (base.Id != null) ret.Append($" id=\"{base.Id}\"");
             if (ViewBox != (null, null, null, null))
             {
                 if (!ViewBox.x.HasValue) throw new ArgumentException("Please specify x coordinate for the viewport. Incomplete viewport specification is not supported.");

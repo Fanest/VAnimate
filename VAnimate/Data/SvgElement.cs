@@ -5,6 +5,8 @@ namespace VAnimate.Data
 {
     public abstract class SvgElement
     {
+        public string Id { get; set; } = "";
+        
         public List<SvgElement> Children { get; } = new List<SvgElement>();
 
         protected bool IsTree
