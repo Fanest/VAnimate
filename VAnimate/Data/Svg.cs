@@ -24,7 +24,7 @@ namespace VAnimate.Data
                 if (!ViewBox.y.HasValue) throw new ArgumentException("Please specify y coordinate for the viewport. Incomplete viewport specification is not supported.");
                 if (!ViewBox.width.HasValue) throw new ArgumentException("Please specify width for the viewport. Incomplete viewport specification is not supported.");
                 if (!ViewBox.height.HasValue) throw new ArgumentException("Please specify height for the viewport. Incomplete viewport specification is not supported.");
-                ret.Append($"viewBox=\"{ViewBox.x} {ViewBox.y} {ViewBox.width} {ViewBox.height}\"");
+                ret.Append($" viewBox=\"{ViewBox.x} {ViewBox.y} {ViewBox.width} {ViewBox.height}\"");
             }
             if (X != null) ret.Append($" x=\"{X}\"");
             if (Y != null) ret.Append($" y=\"{Y}\"");
