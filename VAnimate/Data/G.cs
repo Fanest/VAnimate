@@ -8,10 +8,10 @@ namespace VAnimate.Data
     {
         public override string SvgString()
         {
-            if (!base.IsTree) throw new ArgumentException("Cannot form string due to overlapping branches or cycles in svg structure.");
-            
             var ret = new StringBuilder("<g");
+            if (base.Id != null) ret.Append($"id=\"{base.Id}\"");
             ret.Append('>');
+            
             foreach (var child in base.Children)
             {
                 ret.Append(child.SvgString());

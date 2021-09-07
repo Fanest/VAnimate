@@ -16,7 +16,7 @@ namespace VAnimate.Data
         {
             if (visited.Contains(current)) return false;
             visited.Add(current);
-            foreach (var child in Children)
+            foreach (var child in current.Children)
             {
                 if (!Visit(child, visited)) return false;
             }
